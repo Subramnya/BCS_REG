@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "System Administrator",
+      "email": "admin",
+      "department": "Management",
+      "year": "Admin",
+      "phone_whatsapp": "0000000000",
+      "csn_esn": "ADMIN-001",
+      "password": "admin@123",
+      "role": "admin",
+      "created_at": "2026-09-16T15:23:19.258Z"
+    },
+    {
+      "id": 2,
+      "name": "FHTFD",
+      "email": "zdad@gmail.com",
+      "department": "Computer Science & Engineering (CSE)",
+      "year": "1st Year",
+      "phone_whatsapp": "RGARGERGER",
+      "csn_esn": "ZFBDDRGRA",
+      "password": "1234567890",
+      "role": "student",
+      "created_at": "2026-09-16T15:31:22.028Z"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 1,
+      "name": "Tech Spectrum",
+      "easy_meaning": "Coding & Software Innovation",
+      "category": "Technical",
+      "description": "The premier technological wing of BC Creative Spectrum. Focuses on full-stack development, software engineering, algorithms, and real-world project development.",
+      "audition_process": "1. Short online logic & coding assessment.\n2. 10-minute technical interview discussing your project interest.",
+      "badge_color": "#3b82f6"
+    },
+    {
+      "id": 2,
+      "name": "Nexus Cultural",
+      "easy_meaning": "Dance, Drama & Stage Arts",
+      "category": "Cultural",
+      "description": "The beating heart of expression at BCS. Brings together dancers, actors, stage performers, and theatrical artists for major college events and national fests.",
+      "audition_process": "1. 1-to-2 minute live solo performance (Dance/Drama/Mono-act).\n2. Brief interaction with cultural leads.",
+      "badge_color": "#ec4899"
+    },
+    {
+      "id": 3,
+      "name": "Pixel Crafts",
+      "easy_meaning": "UI/UX, Visual Design & Video",
+      "category": "Creative",
+      "description": "Visual storytellers and digital creators. Mastering graphic design, UI/UX wireframing, motion graphics, video editing, and 3D artwork.",
+      "audition_process": "1. Showcase your portfolio or sample graphics/video reel.\n2. On-spot 20-minute design challenge based on a given prompt.",
+      "badge_color": "#a855f7"
+    },
+    {
+      "id": 4,
+      "name": "Code Catalyst",
+      "easy_meaning": "AI, Data Science & Cybersecurity",
+      "category": "Technical",
+      "description": "Delving into artificial intelligence, machine learning models, cloud computing, and ethical hacking through hands-on workshops and hackathons.",
+      "audition_process": "1. Quiz on Python/C++/Data Basics.\n2. Discussion on AI/ML or Security concepts you are passionate about.",
+      "badge_color": "#06b6d4"
+    },
+    {
+      "id": 5,
+      "name": "Innovators Club",
+      "easy_meaning": "Entrepreneurship & Leadership",
+      "category": "Non-Technical",
+      "description": "Cultivating business minds, startup founders, event organizers, and public relations managers for corporate outreach and fest execution.",
+      "audition_process": "1. Group discussion on a business case scenario.\n2. Personal interview focusing on leadership and management skills.",
+      "badge_color": "#eab308"
+    },
+    {
+      "id": 6,
+      "name": "Rhythm & Beats",
+      "easy_meaning": "Music Production & Vocals",
+      "category": "Cultural",
+      "description": "Vocalists, instrumentalists, beatmakers, and audio production enthusiasts organizing live acoustic sessions, bands, and college anthems.",
+      "audition_process": "1. Perform one song/instrumental piece of your choice (up to 2 mins).\n2. Scale check and pitch assessment.",
+      "badge_color": "#10b981"
+    },
+    {
+      "id": 7,
+      "name": "Cyber Esports",
+      "easy_meaning": "Competitive Gaming & Game Dev",
+      "category": "Gaming",
+      "description": "Bringing together competitive gamers, tournament shoutcasters, stream managers, and aspiring indie game developers.",
+      "audition_process": "1. 1v1 or team tactical match evaluation.\n2. Interview on game strategy or game engine knowledge (Unity/Unreal).",
+      "badge_color": "#f97316"
+    },
+    {
+      "id": 8,
+      "name": "Literary Wave",
+      "easy_meaning": "Debating, Writing & Journalism",
+      "category": "Literature",
+      "description": "The official editorial, debating, and creative writing guild. Editing college magazines, hosting MUNs, debates, and poetry slams.",
+      "audition_process": "1. 300-word written essay or poem submission.\n2. 2-minute impromptu speaking round (Extempore).",
+      "badge_color": "#6366f1"
+    }
+  ],
+  "registrations": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "club_id": 4,
+      "created_at": "2026-09-16T15:31:40.588Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Welcome to BC Creative Spectrum Auditions 2026!",
+      "description": "Auditions for all 8 clubs are officially open! Registered students can select up to 2 clubs to give auditions. Check the club notices for dates and audition guidelines.",
+      "image_url": null,
+      "created_at": "2026-09-16T15:23:19.259Z"
+    }
+  ]
+}
